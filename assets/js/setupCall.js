@@ -49,6 +49,8 @@ $(document).ready(function() {
         method:'POST',// jQuery > 1.9
         type:'POST', //jQuery < 1.9
         success:function(data){
+            
+            console.log( data );
 
             // For demo purposes check that the expected object has been loaded, otherwise show hint
             if(data.hasOwnProperty('originKey')){
