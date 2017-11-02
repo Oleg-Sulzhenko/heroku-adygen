@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    console.log('Deploootyy aGAaa2');
+    console.log('Deploootyy2');
     
     var showHint = false;
 
@@ -54,8 +54,7 @@ $(document).ready(function() {
 
             // For demo purposes check that the expected object has been loaded, otherwise show hint
             if(data.hasOwnProperty('originKey')){
-                
-                data.origin = 'https://adyen-checkout-aleg.herokuapp.com';
+
                 // Initialize checkout
                 initiateCheckout(data);
             }else{
