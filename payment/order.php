@@ -24,7 +24,7 @@
  * For more information, refer to the checkout API documentation: https://docs.adyen.com/developers/in-app-integration/checkout-api-reference */
 
 /** @int value - Put the value into minor units 120 = 1.20 (for USD), for decimal information per currency see: https://docs.adyen.com/developers/currency-codes */
-$value = 120;
+$value = 1420;
 
 /** @var  $currencyCode - Change this to any currency you support: https://docs.adyen.com/developers/currency-codes */
 $currencyCode = 'USD';
