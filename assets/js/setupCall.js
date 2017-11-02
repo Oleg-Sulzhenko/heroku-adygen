@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    console.log('Deploootyy aGAaa');
     var showHint = false;
 
     // Create styling object for securedFields, for more information: https://docs.adyen.com/developers/checkout-javascript-sdk/styling-secured-fields
