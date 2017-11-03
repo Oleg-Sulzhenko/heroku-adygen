@@ -41,7 +41,7 @@ $checkoutVerifyURL = $checkoutBaseURL . '/verify';
 $shopperIP = $_SERVER['REMOTE_ADDR'];
 
 return [
-    'origin' => 'https://adyen-checkout-aleg.herokuapp.com',
+    'origin' => 'https://checkoutshopper-test.adyen.com',
     'baseURL' => $checkoutBaseURL,
     'setupURL' => $checkoutSetupURL,
     'verifyURL' => $checkoutVerifyURL,
