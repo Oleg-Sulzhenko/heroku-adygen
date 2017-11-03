@@ -40,7 +40,7 @@ $returnURL = url();
 $shopperIP = $_SERVER['REMOTE_ADDR'];
 
 return [
-    'origin' => 'https://checkoutshopper-test.adyen.com',
+    'origin' => url(),
     'baseURL' => $checkoutBaseURL,
     'setupURL' => $checkoutSetupURL,
     'verifyURL' => $checkoutVerifyURL,
