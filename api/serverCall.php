@@ -52,7 +52,7 @@ function requestPaymentData($order, $server, $authentication)
 
         /** All server specific settings can be found in config/server.php */
 
-        'origin' => 'https://checkoutshopper-test.adyen.com',
+        'origin' => 'https://adyen-checkout-aleg.herokuapp.com',
         'shopperIP' => $server['shopperIP'],
         'returnUrl' => $server['returnURL'],
 
