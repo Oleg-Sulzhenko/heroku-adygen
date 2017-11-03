@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    console.log('Deploootyy5');
+    console.log('Deploootyy6');
     
     var showHint = false;
 
@@ -50,7 +50,7 @@ $(document).ready(function() {
         type:'POST', //jQuery < 1.9
         success:function(data){
             
-            console.log( data );
+            //console.log( data );
 
             // For demo purposes check that the expected object has been loaded, otherwise show hint
             if(data.hasOwnProperty('originKey')){
