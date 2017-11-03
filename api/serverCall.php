@@ -52,7 +52,7 @@ function requestPaymentData($order, $server, $authentication)
 
         /** All server specific settings can be found in config/server.php */
 
-        'origin' => $server['origin'],
+        'origin' => 'https://checkoutshopper-test.adyen.com',
         'shopperIP' => $server['shopperIP'],
         'returnUrl' => $server['returnURL'],
 
