@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    console.log('Deploootyy4');
+    console.log('Deploootyy5');
     
     var showHint = false;
 
