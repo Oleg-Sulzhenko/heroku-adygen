@@ -36,10 +36,10 @@ $amount = [
 ];
 
 /** @var $reference - order number */
-$reference = 'order_id';
+$reference = 'order_idy';
 
 /** @var $shopperReference - Your shopper reference (id or e-mail are commonly used) */
-$shopperReference = 'example_shopper';
+$shopperReference = 'john@test.com';
 
 /** @var $shopperLocale - The shopper locale */
 $shopperLocale = 'en-US';

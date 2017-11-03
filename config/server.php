@@ -28,7 +28,7 @@ function url(){
 }
 
 /** Adyen checkout endpoints */
-$checkoutBaseURL = 'https://checkout-test.adyen.com/services/PaymentSetupAndVerification';
+$checkoutBaseURL = 'https://checkout-test.adyen.com/services/PaymentSetupAndVerification/v31';
 $checkoutSetupURL = $checkoutBaseURL . '/setup';
 $checkoutVerifyURL = $checkoutBaseURL . '/verify';
 
