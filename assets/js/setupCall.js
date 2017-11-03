@@ -55,8 +55,8 @@ $(document).ready(function() {
             // For demo purposes check that the expected object has been loaded, otherwise show hint
             if(data.hasOwnProperty('originKey')){
                 
-                //data.origin = 'https://checkoutshopper-test.adyen.com';
-                data.origin = 'https://adyen-checkout-aleg.herokuapp.com';
+                data.origin = 'https://checkoutshopper-test.adyen.com';
+                //data.origin = 'https://adyen-checkout-aleg.herokuapp.com';
 
                 // Initialize checkout
                 initiateCheckout(data);
