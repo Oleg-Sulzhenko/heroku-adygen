@@ -28,20 +28,19 @@ function url(){
 }
 
 /** Adyen checkout endpoints */
-$checkoutBaseURL = 'https://checkout-test.adyen.com/services/PaymentSetupAndVerification';
+$checkoutBaseURL = 'https://checkout-test.adyen.com/services/PaymentSetupAndVerification/v31';
 $checkoutSetupURL = $checkoutBaseURL . '/setup';
 $checkoutVerifyURL = $checkoutBaseURL . '/verify';
 
 /** Your server endpoints */
 /** @var $returnURL - the url you want the shopper to return to after they complete their transaction */
-//$returnURL = 'https://adyen-checkout-aleg.herokuapp.com';
-  $returnURL = 'https://checkoutshopper-test.adyen.com';
+$returnURL = url();
 
 /** Shopper IP */
 $shopperIP = $_SERVER['REMOTE_ADDR'];
 
 return [
-    'origin' => 'https://checkoutshopper-test.adyen.com',
+    'origin' => url(),
     'baseURL' => $checkoutBaseURL,
     'setupURL' => $checkoutSetupURL,
     'verifyURL' => $checkoutVerifyURL,

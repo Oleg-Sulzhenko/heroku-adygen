@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    console.log('Deploy 10');
+    console.log('Deploy 11');
     
     var showHint = false;
 
