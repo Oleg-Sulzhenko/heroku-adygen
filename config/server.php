@@ -34,7 +34,8 @@ $checkoutVerifyURL = $checkoutBaseURL . '/verify';
 
 /** Your server endpoints */
 /** @var $returnURL - the url you want the shopper to return to after they complete their transaction */
-$returnURL = 'https://adyen-checkout-aleg.herokuapp.com';
+//$returnURL = 'https://adyen-checkout-aleg.herokuapp.com';
+  $returnURL = 'https://checkoutshopper-test.adyen.com';
 
 /** Shopper IP */
 $shopperIP = $_SERVER['REMOTE_ADDR'];
