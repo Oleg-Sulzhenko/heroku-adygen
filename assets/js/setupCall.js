@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    console.log('Deploootyy8');
+    console.log('Deploy 9');
     
     var showHint = false;
 
@@ -50,10 +50,13 @@ $(document).ready(function() {
         type:'POST', //jQuery < 1.9
         success:function(data){
             
-            //console.log( data );
+            console.log( data );
 
             // For demo purposes check that the expected object has been loaded, otherwise show hint
             if(data.hasOwnProperty('originKey')){
+                
+                //data.origin = 'https://checkoutshopper-test.adyen.com';
+                data.origin = 'https://adyen-checkout-aleg.herokuapp.com';
 
                 // Initialize checkout
                 initiateCheckout(data);
