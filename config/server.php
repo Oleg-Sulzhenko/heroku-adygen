@@ -40,10 +40,10 @@ $returnURL = url();
 $shopperIP = $_SERVER['REMOTE_ADDR'];
 
 return [
-    'origin' => url(),
+    'origin' => 'https://adyen-checkout-aleg.herokuapp.com',
     'baseURL' => $checkoutBaseURL,
     'setupURL' => $checkoutSetupURL,
     'verifyURL' => $checkoutVerifyURL,
-    'returnURL' => $returnURL,
+    'returnURL' => 'https://adyen-checkout-aleg.herokuapp.com',
     'shopperIP' => $shopperIP,
 ];
