@@ -36,8 +36,6 @@ if (!empty (getenv('MERCHANT_ACCOUNT')) && !empty(getenv('CHECKOUT_API_KEY'))) {
 $order = include('../payment/order.php');
 $server = include('../config/server.php');
 
-echo $server['origin'];
-
 /** Set up the cURL call to  adyen */
 function requestPaymentData($order, $server, $authentication)
 {
