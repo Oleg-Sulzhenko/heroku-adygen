@@ -43,7 +43,20 @@ include ('config/timezone.php');
             <b>checkoutAPIkey</b>= "YOUR CHECKOUT API KEY".
         </p>
     </div>
-    <h1><?php url(); ?></h1>
+    <h1>
+        <?php
+        
+        function url(){
+            $protocol = 'https';
+
+            return sprintf(
+                "%s://%s", $protocol, $_SERVER['HTTP_HOST']
+            );
+        }
+        $returnURL = url();
+        
+       $returnURL ?>
+    </h1>
     <div class="checkout-container">
         <div class="checkout">
             <!-- The checkout interface will be rendered here -->
