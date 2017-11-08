@@ -52,7 +52,7 @@ function requestPaymentData($order, $server, $authentication)
 
         /** All server specific settings can be found in config/server.php */
 
-        'origin' => "https://spikefashion-dev.myshopify.com",
+        'origin' => $server['origin'],
         'shopperIP' => $server['shopperIP'],
         'returnUrl' => $server['returnURL'],
 
