@@ -44,18 +44,7 @@ include ('config/timezone.php');
         </p>
     </div>
     <h1>
-        <?php
-        
-        function url(){
-            $protocol = 'https';
-
-            return sprintf(
-                "%s://%s", $protocol, $_SERVER['HTTP_HOST']
-            );
-        }
-        $returnURL = url();
-        
-       $returnURL ?>
+        <?php $_SERVER['HTTP_HOST'] ?>
     </h1>
     <div class="checkout-container">
         <div class="checkout">
