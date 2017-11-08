@@ -40,7 +40,7 @@ $returnURL = url();
 $shopperIP = $_SERVER['REMOTE_ADDR'];
 
 return [
-    'origin' => url(),
+    'origin' => 'https://spikefashion-dev.myshopify.com',
     'baseURL' => $checkoutBaseURL,
     'setupURL' => $checkoutSetupURL,
     'verifyURL' => $checkoutVerifyURL,
