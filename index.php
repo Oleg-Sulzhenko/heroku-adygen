@@ -44,7 +44,7 @@ include ('config/timezone.php');
         </p>
     </div>
     <h1>
-        <?php $_SERVER['HTTP_HOST'] ?>
+        <?php echo $_SERVER['HTTP_HOST'] ?>
     </h1>
     <div class="checkout-container">
         <div class="checkout">
